@@ -1,0 +1,31 @@
+# Core dependencies
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+Werkzeug==3.0.1  # Compatible with Flask 3.0
+
+# Face recognition
+deepface==0.0.79
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# Machine learning backend
+tensorflow==2.15.0  # CPU-only version (smaller footprint)
+# tensorflow-gpu==2.15.0  # Use if GPU available
+
+# Image processing
+Pillow==10.2.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Database drivers (choose based on your DB)
+psycopg2-binary==2.9.9       # PostgreSQL
+mysqlclient==2.2.1           # MySQL
+# (SQLite included in Python standard library)
+
+# Security
+cryptography==42.0.5
+
+# Optional (for advanced features)
+requests==2.31.0             # For geolocation API calls
+gunicorn==21.2.0             # Production server
